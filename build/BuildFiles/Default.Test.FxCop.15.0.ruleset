@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Default Test Code Analysis Rules" Description="This rule set contains all rules, less those temporarily or permanently disabled." ToolsVersion="15.0">
+   <IncludeAll Action="Warning" />
+   <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+      <!---->
+      <!--Matching Default.Production.Ruleset-->
+      <!---->
+
+      <!--Generic Methods should provide type parameter-->
+      <Rule Id="CA1004" Action="None" />
+
+      <!--Do not nest generic types in member signatures-->
+      <Rule Id="CA1006" Action="None" />
+
+      <!--Consider passing base types as parameters-->
+      <Rule Id="CA1011" Action="None" />
+
+      <!--Avoid Namespaces with few types-->
+      <Rule Id="CA1020" Action="None" />
+
+      <!--Use properties where appropriate-->
+      <Rule Id="CA1024" Action="None" />
+
+      <!--Avoid empty interfaces-->
+      <Rule Id="CA1040" Action="None" />
+
+      <!--Variable names should not match field names-->
+      <Rule Id="CA1500" Action="None" />
+
+      <!--Mark members as static-->
+      <Rule Id="CA1822" Action="None" />
+
+      <!--Do not dispose objects multiple times-->
+      <Rule Id="CA2202" Action="None" />
+
+      <!--Assemblies should have valid strong names-->
+      <Rule Id="CA2210" Action="None" />
+
+
+      <!---->
+      <!--Additional Rules Disabled In Test Projects-->
+      <!---->
+
+      <!--Avoid exceesive parameters on generic types-->
+      <Rule Id="CA1005" Action="None" />
+
+      <!--Do not nest generic types in member signatures-->
+      <Rule Id="CA1014" Action="None" />
+
+      <!--Default parameters should not be used-->
+      <Rule Id="CA1026" Action="None" />
+
+      <!--Do not catch general exception types-->
+      <Rule Id="CA1031" Action="None" />
+
+      <!--Nested types should not be visible-->
+      <Rule Id="CA1034" Action="None" />
+
+      <!--Do not declare visible instance fields-->
+      <Rule Id="CA1051" Action="None" />
+
+      <!--Validate arguments on public methods-->
+      <Rule Id="CA1062" Action="None" />
+
+      <!--Do not pass literals as localized parameters-->
+      <Rule Id="CA1303" Action="None" />
+
+      <!--Specify IFormatProvider-->
+      <Rule Id="CA1305" Action="None" />
+
+      <!--Specify StringComparison-->
+      <Rule Id="CA1307" Action="None" />
+
+      <!--Avoid excessive inheritance-->
+      <Rule Id="CA1501" Action="None" />
+
+      <!--Avoid excessive class coupling -->
+      <Rule Id="CA1506" Action="None" />
+
+      <!--Compound words should be cased correctly-->
+      <Rule Id="CA1702" Action="None" />
+
+      <!--Identifiers should be spelled correctly-->
+      <Rule Id="CA1704" Action="None" />
+
+      <!--Identifiers should not contain underscores-->
+      <Rule Id="CA1707" Action="None" />
+
+      <!--Identifiers should be cased correctly-->
+      <Rule Id="CA1709" Action="None" />
+
+      <!--Identifiers should not have incorrect suffix-->
+      <Rule Id="CA1711" Action="None" />
+
+      <!--Identifiers should not contain type names-->
+      <Rule Id="CA1720" Action="None" />
+
+      <!--Review unused parameters-->
+      <Rule Id="CA1801" Action="None" />
+
+      <!--Remove unused locals-->
+      <Rule Id="CA1804" Action="None" />
+
+      <!--Do not ignore method results-->
+      <Rule Id="CA1806" Action="None" />
+
+      <!--Avoid uncalled private code-->
+      <Rule Id="CA1811" Action="None" />
+
+      <!--Avoid uninstantiated internal classes-->
+      <Rule Id="CA1812" Action="None" />
+
+      <!--Avoid unused private fields -->
+      <Rule Id="CA1823" Action="None" />
+
+      <!--Do not indirectly expose methods with link demands-->
+      <Rule Id="CA2122" Action="None" />
+
+      <!--Non-constant fields should not be visible-->
+      <Rule Id="CA2211" Action="None" />
+   </Rules>
+   <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp.Features" RuleNamespace="Microsoft.CodeAnalysis.CSharp.Features">
+      <!---->
+      <!--Matching Default.Production.Ruleset-->
+      <!---->
+
+      <!--Simplify Names-->
+      <Rule Id="IDE0001" Action="None" />
+   </Rules>
+</RuleSet>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Default Production Code Analysis Rules" Description="This rule set contains all rules, less those temporarily or permanently disabled." ToolsVersion="15.0">
+   <IncludeAll Action="Warning" />
+   <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+      <!--Generic Methods should provide type parameter-->
+      <Rule Id="CA1004" Action="None" />
+
+      <!--Do not nest generic types in member signatures-->
+      <Rule Id="CA1006" Action="None" />
+
+      <!--Consider passing base types as parameters-->
+      <Rule Id="CA1011" Action="None" />
+
+      <!--Avoid Namespaces with few types-->
+      <Rule Id="CA1020" Action="None" />
+
+      <!--Use properties where appropriate-->
+      <Rule Id="CA1024" Action="None" />
+
+      <!--Avoid empty interfaces-->
+      <Rule Id="CA1040" Action="None" />
+
+      <!--Variable names should not match field names-->
+      <Rule Id="CA1500" Action="None" />
+
+      <!--Mark members as static-->
+      <Rule Id="CA1822" Action="None" />
+
+      <!--Do not dispose objects multiple times-->
+      <Rule Id="CA2202" Action="None" />
+
+      <!--Assemblies should have valid strong names-->
+      <Rule Id="CA2210" Action="None" />
+   </Rules>
+   <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp.Features" RuleNamespace="Microsoft.CodeAnalysis.CSharp.Features">
+      <!--Simplify Names-->
+      <Rule Id="IDE0001" Action="None" />
+   </Rules>
+</RuleSet>

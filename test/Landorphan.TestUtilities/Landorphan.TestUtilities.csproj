@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+   <PropertyGroup>
+      <TargetFramework>netcoreapp2.1</TargetFramework>
+      <IsPackable>false</IsPackable>
+   </PropertyGroup>
+
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <DefineConstants>DEBUG;TRACE</DefineConstants>
+      <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+
+      <IntermediateOutputPath>..\..\obj\debug\$(AssemblyName)\</IntermediateOutputPath>
+      <OutputPath>..\..\bin\debug\$(AssemblyName)</OutputPath>
+   </PropertyGroup>
+
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+      <DefineConstants>TRACE</DefineConstants>
+      <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+
+      <IntermediateOutputPath>..\..\obj\release\$(AssemblyName)\</IntermediateOutputPath>
+      <OutputPath>..\..\bin\release\$(AssemblyName)</OutputPath>
+   </PropertyGroup>
+
+   <ItemGroup>
+      <PackageReference Include="FluentAssertions" Version="5.4.1" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+      <PackageReference Include="MSTest.TestAdapter" Version="1.3.2" />
+      <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
+   </ItemGroup>
+
+   <ItemGroup>
+     <ProjectReference Include="..\..\source\Landorphan\Landorphan.csproj" />
+   </ItemGroup>
+</Project>

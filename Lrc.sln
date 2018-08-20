@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{AD521E6A-E58D-486F-9AB9-C15BF55E8489}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2F74D7E7-E9DE-45FB-A396-24B083097CB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Landorphan.Registry.Convert", "source\Landorphan.Registry.Convert\Landorphan.Registry.Convert.csproj", "{B80B1532-516C-48E0-8EF5-7E980BC8CCA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{273951F1-D08D-459F-87FE-563BE02C0F55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildFiles", "BuildFiles", "{D84C1B8C-4D55-4262-B394-027F6FAF900E}"
+	ProjectSection(SolutionItems) = preProject
+		build\BuildFiles\AllRules.FxCop.15.0.ruleset = build\BuildFiles\AllRules.FxCop.15.0.ruleset
+		build\BuildFiles\CustomDictionary.xml = build\BuildFiles\CustomDictionary.xml
+		build\BuildFiles\Default.Production.FxCop.15.0.ruleset = build\BuildFiles\Default.Production.FxCop.15.0.ruleset
+		build\BuildFiles\Default.Test.FxCop.15.0.ruleset = build\BuildFiles\Default.Test.FxCop.15.0.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResharperLayout", "ResharperLayout", "{80F714B8-71ED-419E-BBCC-E10DC325C3EF}"
+	ProjectSection(SolutionItems) = preProject
+		build\ResharperLayout\ResharperLayout_1_NonReorderableTypes.xml = build\ResharperLayout\ResharperLayout_1_NonReorderableTypes.xml
+		build\ResharperLayout\ResharperLayout_2_SpecFlow.xml = build\ResharperLayout\ResharperLayout_2_SpecFlow.xml
+		build\ResharperLayout\ResharperLayout_3_MSTestBDD.xml = build\ResharperLayout\ResharperLayout_3_MSTestBDD.xml
+		build\ResharperLayout\ResharperLayout_9999_Default.xml = build\ResharperLayout\ResharperLayout_9999_Default.xml
+		build\ResharperLayout\ResharperLayoutFull.2018.1.4.WithoutRegions.xml = build\ResharperLayout\ResharperLayoutFull.2018.1.4.WithoutRegions.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D9A52A2F-DBEF-43F0-9B37-71365F5ED8CC}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		TODO.md = TODO.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Landorphan.TestUtilities", "test\Landorphan.TestUtilities\Landorphan.TestUtilities.csproj", "{2BC0D6FE-A9E1-498E-9293-EDA9A7A5297D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Landorphan", "source\Landorphan\Landorphan.csproj", "{0FDFF163-A95E-4118-A24F-5A38644F16FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Landorphan.Registry.Convert.CoreConsole", "source\Landorphan.Registry.Convert.CoreConsole\Landorphan.Registry.Convert.CoreConsole.csproj", "{93F83244-4F3E-463C-B45E-EAD86B9FE28B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Landorphan.Registry.Convert.Tests", "test\Landorphan.Registry.Convert.Tests\Landorphan.Registry.Convert.Tests.csproj", "{7B35694A-4185-458A-A90C-390DA874015A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Landorphan.Tests", "tests\Landorphin.Tests\Landorphan.Tests.csproj", "{F4231B0E-EF58-44B0-8A7F-BB1DB374C234}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B80B1532-516C-48E0-8EF5-7E980BC8CCA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80B1532-516C-48E0-8EF5-7E980BC8CCA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80B1532-516C-48E0-8EF5-7E980BC8CCA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80B1532-516C-48E0-8EF5-7E980BC8CCA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC0D6FE-A9E1-498E-9293-EDA9A7A5297D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC0D6FE-A9E1-498E-9293-EDA9A7A5297D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC0D6FE-A9E1-498E-9293-EDA9A7A5297D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC0D6FE-A9E1-498E-9293-EDA9A7A5297D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FDFF163-A95E-4118-A24F-5A38644F16FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDFF163-A95E-4118-A24F-5A38644F16FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDFF163-A95E-4118-A24F-5A38644F16FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDFF163-A95E-4118-A24F-5A38644F16FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F83244-4F3E-463C-B45E-EAD86B9FE28B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F83244-4F3E-463C-B45E-EAD86B9FE28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F83244-4F3E-463C-B45E-EAD86B9FE28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F83244-4F3E-463C-B45E-EAD86B9FE28B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B35694A-4185-458A-A90C-390DA874015A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B35694A-4185-458A-A90C-390DA874015A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B35694A-4185-458A-A90C-390DA874015A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B35694A-4185-458A-A90C-390DA874015A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4231B0E-EF58-44B0-8A7F-BB1DB374C234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4231B0E-EF58-44B0-8A7F-BB1DB374C234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4231B0E-EF58-44B0-8A7F-BB1DB374C234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4231B0E-EF58-44B0-8A7F-BB1DB374C234}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B80B1532-516C-48E0-8EF5-7E980BC8CCA6} = {AD521E6A-E58D-486F-9AB9-C15BF55E8489}
+		{D84C1B8C-4D55-4262-B394-027F6FAF900E} = {273951F1-D08D-459F-87FE-563BE02C0F55}
+		{80F714B8-71ED-419E-BBCC-E10DC325C3EF} = {273951F1-D08D-459F-87FE-563BE02C0F55}
+		{2BC0D6FE-A9E1-498E-9293-EDA9A7A5297D} = {2F74D7E7-E9DE-45FB-A396-24B083097CB6}
+		{0FDFF163-A95E-4118-A24F-5A38644F16FA} = {AD521E6A-E58D-486F-9AB9-C15BF55E8489}
+		{93F83244-4F3E-463C-B45E-EAD86B9FE28B} = {AD521E6A-E58D-486F-9AB9-C15BF55E8489}
+		{7B35694A-4185-458A-A90C-390DA874015A} = {2F74D7E7-E9DE-45FB-A396-24B083097CB6}
+		{F4231B0E-EF58-44B0-8A7F-BB1DB374C234} = {2F74D7E7-E9DE-45FB-A396-24B083097CB6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {169F2925-82C1-4FC7-8C92-326C05607CC1}
+	EndGlobalSection
+EndGlobal
